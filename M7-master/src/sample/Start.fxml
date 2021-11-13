@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+            prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.StartController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="380.0" style="-fx-background-color: #EAEAEA;">
+         <children>
+            <Text layoutX="75.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM 25">
+               <font>
+                  <Font name="Roboto Black" size="55.0" />
+               </font>
+            </Text>
+            <Text layoutX="75.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Object and Design">
+               <font>
+                  <Font name="Roboto Black" size="27.0" />
+               </font>
+            </Text>
+            <Text layoutX="75.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This course takes students who &#10;know an object-oriented language&#10;, and focuses on getting them to &#10;use that language in a true &#10;object-oriented style.  The course &#10;achieves this goal by introducing a &#10;design methodology and notation, &#10;and covering standard principles &#10;and practice in design.">
+               <font>
+                  <Font name="Roboto Medium" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="75.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created By:&#10;Grace Dwyer, Nooreen Farooqui, &#10;Lifeng Tang, Joshua Suber, &#10;and Ulrica Wang">
+               <font>
+                  <Font name="Roboto Medium" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="startButton" layoutX="90.0" layoutY="600.0" mnemonicParsing="false" onAction="#goToChooseLevel" text="START">
+         <font>
+            <Font name="Roboto Bold" size="40.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="380.0" prefHeight="800.0" prefWidth="920.0" />
+      <Text layoutX="525.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPACE TRADERS">
+         <font>
+            <Font name="Roboto Black" size="80.0" />
+         </font>
+      </Text>
+      <Text layoutX="515.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy&#10; eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &#10;voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita &#10;kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. &#10;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy &#10;eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &#10;voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita &#10;kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&#10;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam&#10;">
+         <font>
+            <Font name="Roboto Regular" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="515.0" layoutY="650.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Based on popular video game by the same name. ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

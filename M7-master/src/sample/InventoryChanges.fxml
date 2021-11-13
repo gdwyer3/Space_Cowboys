@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0"
+            prefWidth="793.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.InventoryChangesController">
+   <children>
+      <Text fill="#19af23" layoutX="145.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Ship's Inventory has Changed!">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Text>
+      <TableView fx:id="afterChangeInventory" layoutX="132.0" layoutY="94.0" prefHeight="343.0" prefWidth="538.0">
+        <columns>
+          <TableColumn fx:id="afterChangeProductName" prefWidth="177.6000213623047" text="Name" />
+          <TableColumn fx:id="afterChangeProductPrice" minWidth="0.0" prefWidth="183.199951171875" text="Sell Price" />
+            <TableColumn fx:id="afterChangeProductQuantity" prefWidth="176.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Button fx:id="moveOnButton" layoutX="320.0" layoutY="458.0" mnemonicParsing="false" prefHeight="51.0"
+              prefWidth="160.0" text="Travel To Destination" onAction="#travelToDestination" />
+   </children>
+</AnchorPane>

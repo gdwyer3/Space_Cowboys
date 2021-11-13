@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EndCreditsScreenController">
+   <children>
+      <Text fill="#f0d002" layoutX="236.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credits to" wrappingWidth="109.79876708984375">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#3e0be5" layoutX="213.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grace Elena Dwyer" wrappingWidth="154.390625">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1808f5" layoutX="219.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nooreen Farooqui">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1602ed" layoutX="199.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joshua Alexander Suber">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#2a06df" layoutX="242.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lifeng Tang">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#5608fd" layoutX="240.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ulrica Wang">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="restartButton" layoutX="218.0" layoutY="280.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="68.0" prefWidth="129.0" text="Restart" />
+      <Text fill="#ab1a24" layoutX="215.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESTART?" wrappingWidth="265.309814453125">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

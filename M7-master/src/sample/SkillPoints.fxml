@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SkillPointsScreenController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="380.0" style="-fx-background-color: #EAEAEA;">
+         <children>
+            <Button mnemonicParsing="false" text="   ">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Button>
+            <Text layoutX="50.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+               <font>
+                  <Font name="Roboto Black" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="76.0" mnemonicParsing="false" text="   ">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Button>
+            <Button layoutX="152.0" mnemonicParsing="false" text="   ">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Button>
+            <Button layoutX="228.0" mnemonicParsing="false" text="   ">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Button>
+            <Button layoutX="304.0" mnemonicParsing="false" text="   ">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Button>
+            <Text layoutX="50.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Difficulty:">
+               <font>
+                  <Font name="Roboto Black" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skill Pts:">
+               <font>
+                  <Font name="Roboto Black" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roles:">
+               <font>
+                  <Font name="Roboto Black" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilot:">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fighter:">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Merchant:">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="50.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Engineer:">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="min1" layoutX="200.0" layoutY="290.0" mnemonicParsing="false" onAction="#addSkillPts" text="-">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="min2" layoutX="200.0" layoutY="330.0" mnemonicParsing="false" onAction="#addSkillPts" text="-">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="min3" layoutX="200.0" layoutY="370.0" mnemonicParsing="false" onAction="#addSkillPts" text="-">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="min4" layoutX="200.0" layoutY="410.0" mnemonicParsing="false" onAction="#addSkillPts" text="-">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="plus1" layoutX="300.0" layoutY="290.0" mnemonicParsing="false" onAction="#addSkillPts" text="+">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="plus2" layoutX="300.0" layoutY="330.0" mnemonicParsing="false" onAction="#addSkillPts" text="+">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="plus3" layoutX="300.0" layoutY="370.0" mnemonicParsing="false" onAction="#addSkillPts" text="+">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="plus4" layoutX="300.0" layoutY="410.0" mnemonicParsing="false" onAction="#addSkillPts" text="+">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text fx:id="pilotSkill" layoutX="255.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="fighterSkill" layoutX="255.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="merchantSkill" layoutX="255.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="engineerSkill" layoutX="255.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="selectedDifficulty" layoutX="198.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dif">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="playerName" layoutX="198.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="skillPointsArea" layoutX="198.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="skill">
+               <font>
+                  <Font name="Roboto Medium" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="380.0" prefHeight="600.0" prefWidth="720.0">
+         <children>
+            <Button fx:id="close" layoutX="825.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="X">
+               <font>
+                  <Font name="Roboto Black" size="38.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Button fx:id="submitButton" layoutX="75.0" layoutY="480.0" mnemonicParsing="false" onAction="#goToCharacterProfile" text="SUBMIT">
+         <font>
+            <Font name="Roboto Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
